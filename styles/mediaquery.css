@@ -1,0 +1,10 @@
+@media screen and (max-width: 1405px){
+    /* CABEÇALHO NAVIGATION */
+    .navigation{
+        display: none;
+    }
+    /*RESOURCE WEB */
+    .video-container {
+        right:150px;
+    }
+}

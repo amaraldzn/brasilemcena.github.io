@@ -1,0 +1,30 @@
+/* Corressel que tira minhas noites de sono */
+
+.carrossel {
+    display: flex;
+    overflow-x: auto;
+ 
+  }
+
+  .carrossel img:not(:last-child) {
+    margin-right: 20px;
+  }
+
+.carrossel:hover :not(:hover) {
+    opacity: 0.3;
+  }
+  
+  .carrossel img {
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 0.5px solid green;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .carrossel img:hover {
+    width: 220px;
+    height: 320px;
+    transform:translate(5px, 10p)
+  }

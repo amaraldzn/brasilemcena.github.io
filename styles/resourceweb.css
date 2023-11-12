@@ -1,0 +1,40 @@
+/* trailer */ 
+
+.video-container {
+    float: right;
+    position: absolute;
+    top: 195px;
+    right: 150px;
+    width: 50%; 
+    max-width: 560px; 
+  }
+
+  /* trailer */
+
+/* FICOU BUGADO USANDO ESSE CÓDIGO*/
+
+/*.video-container {
+    margin-left: 730px;
+    margin-top: -410px;
+    width: 50%;
+    max-width: 560px; 
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+} */
+
+/* FICOU BUGADO TAMBÉM
+.video-container {
+    position: relative;
+    top: -450px;
+    left:63%;
+    transform:translateX(-50%);
+    width: 50%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+} */
+
+

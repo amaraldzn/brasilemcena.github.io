@@ -1,0 +1,17 @@
+footer {
+    margin-top: 80px;
+    text-align: center !important;
+    position: relative;
+}
+
+.direitos-autorais {
+    font-size: 14px;
+    color: #777;
+    max-width: 600px;
+    margin: 100 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
