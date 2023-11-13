@@ -35,5 +35,9 @@
             width: 23%; /* Ajuste a largura conforme necessário para 428px */
             height: 200px; /* Ajuste a altura conforme necessário */
         }
+
+      .carrossel img:not(:last-child) {
+            margin-right: 0px;
+        }
     
     }

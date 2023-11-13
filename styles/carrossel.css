@@ -6,9 +6,6 @@
  
   }
 
-  .carrossel img:not(:last-child) {
-    margin-right: 20px;
-  }
 
 .carrossel:hover :not(:hover) {
     opacity: 0.3;
