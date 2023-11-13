@@ -1,5 +1,8 @@
 /* papel de parede */
 
+.lupinha-container{
+  display: none;
+}
 
 * {
   padding: 0;

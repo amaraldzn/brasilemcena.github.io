@@ -3,7 +3,7 @@
     body {
         overflow-x: hidden;
       }
-      
+
     /* CABEÇALHO NAVIGATION */
 
     .navigation {
@@ -28,6 +28,9 @@
     }
     /* LOGO BRASIL EM CENA*/
     .logobrasilemcena {
+        display:none;
+    }
+    .lupinha-container{
         display:none;
     }
     .main__info {
