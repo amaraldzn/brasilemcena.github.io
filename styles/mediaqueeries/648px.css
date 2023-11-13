@@ -1,5 +1,9 @@
 @media screen and (max-width: 648px){
 
+    body {
+        overflow-x: hidden;
+      }
+
     .navigation, .navigation__social{
         display:none;
     }

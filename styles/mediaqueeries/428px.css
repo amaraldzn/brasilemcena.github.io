@@ -1,5 +1,9 @@
 @media screen and (max-width: 428px){
 
+    body {
+        overflow-x: hidden;
+      }
+
     .menu-icon-container {
         display: block;
     }

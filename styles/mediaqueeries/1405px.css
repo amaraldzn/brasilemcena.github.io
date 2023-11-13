@@ -1,4 +1,9 @@
 @media screen and (max-width: 1405px){
+
+    body {
+        overflow-x: hidden;
+      }
+      
     /* CABEÇALHO NAVIGATION */
 
     .navigation {
