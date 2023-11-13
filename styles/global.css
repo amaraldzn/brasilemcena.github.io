@@ -23,4 +23,6 @@ a {
   text-decoration: none;
 }
 
-
+.menu-icon-container {
+  display: none;
+}

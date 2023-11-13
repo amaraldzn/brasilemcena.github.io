@@ -1,0 +1,32 @@
+@media screen and (max-width: 1405px){
+    /* CABEÇALHO NAVIGATION */
+
+    .navigation {
+        display: flex;
+        align-items: right;
+        column-gap: 10px;
+        list-style: none;
+        position: relative;
+        z-index: 1; 
+        margin-left: 30px;
+      }
+
+    /*RESOURCE WEB */
+    .video-container {
+        position: relative;
+        float: none; /* Remova o float para o vídeo ocupar a largura total */
+        width: 100%; /* Ocupa a largura total do contêiner pai */
+        max-width: none; /* Não há uma largura máxima fixa */
+        top: 0; /* Certifica-se de que o vídeo está no topo do contêiner pai */
+        right: 0; /* Ajuste conforme necessário */
+        margin-top: 20px; 
+    }
+    /* LOGO BRASIL EM CENA*/
+    .logobrasilemcena {
+        display:none;
+    }
+    .main__info {
+        flex-direction: column;
+    }
+}
+

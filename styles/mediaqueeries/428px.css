@@ -1,0 +1,39 @@
+@media screen and (max-width: 428px){
+
+    .menu-icon-container {
+        display: block;
+    }
+
+   .menu-icon-container {
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        z-index: 999;
+        cursor: pointer;
+    } 
+
+    .main__info p {
+        font-family:'Montserrat', sans-serif;
+        font-size: lem;
+        font-weight: 300;
+        line-height: 1.5em;
+        margin: 10px 0 20px;
+        max-width: 350px;
+        word-wrap: break-word;
+    }
+
+    .direitos-autorais {
+        position: relative; /* Altera a posição para relativa para remover a posição absoluta anterior */
+        top: auto;
+        left: auto;
+        transform: none; /* Remove a transformação anterior */
+        text-align: center; /* Alinha o texto no centro */
+        margin-top: 10px; /* Adicione margem superior conforme necessário */
+     }
+
+     .video-container iframe {
+            width: 23%; /* Ajuste a largura conforme necessário para 428px */
+            height: 200px; /* Ajuste a altura conforme necessário */
+        }
+    
+    }
