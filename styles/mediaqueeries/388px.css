@@ -1,4 +1,4 @@
-@media screen and (max-width: 428px){
+@media screen and (max-width: 388px){
 
     .lupinha-container {
         display: block;
@@ -51,7 +51,7 @@
      }
 
      .video-container iframe {
-            width: 27%; /* Ajuste a largura conforme necessário para 428px */
+            width: 24%; /* Ajuste a largura conforme necessário para 428px */
             height: 200px; /* Ajuste a altura conforme necessário */
         }
 
