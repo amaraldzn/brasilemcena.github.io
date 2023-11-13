@@ -37,7 +37,7 @@
         font-weight: 300;
         line-height: 1.5em;
         margin: 10px 0 20px;
-        max-width: 350px;
+        max-width: 270px;
         word-wrap: break-word;
     }
 
@@ -51,7 +51,7 @@
      }
 
      .video-container iframe {
-            width: 24%; /* Ajuste a largura conforme necessário para 428px */
+            width: 19%; /* Ajuste a largura conforme necessário para 428px */
             height: 200px; /* Ajuste a altura conforme necessário */
         }
 
