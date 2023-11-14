@@ -35,8 +35,8 @@
         cursor: pointer;
     } 
 
-    .video-container {
-        width: 100%; /* Ocupa a largura total do contêiner pai */
+    .video-container iframe{
+        width: 26.5%; /* Ocupa a largura total do contêiner pai */
         max-width: 100%; /* Define a largura máxima para ser igual à largura total */
         margin-top: 20px; /* Adicione margem superior para separar do texto */
     }
@@ -46,16 +46,17 @@
         font-weight: 300;
         line-height: 1.5em;
         margin: 10px 0 20px;
-        max-width: 550px;
+        max-width: 410px;
         word-wrap: break-word;
     }
 
     .direitos-autorais {
+                width: 20%;
                 position: relative; /* Altera a posição para relativa para remover a posição absoluta anterior */
                 top: auto;
                 left: auto;
                 transform: none; /* Remove a transformação anterior */
-                text-align: center; /* Alinha o texto no centro */
+                text-align: left; /* Alinha o texto no centro */
                 margin-top: 20px; /* Adicione margem superior conforme necessário */
             }
             .lupinha-container {
